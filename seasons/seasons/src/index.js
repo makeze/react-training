@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay'
+import LoadingScreen from "./LoadingScreen";
 
 class App extends React.Component {
     constructor(props) {
@@ -27,7 +28,7 @@ class App extends React.Component {
             return <SeasonDisplay lat={this.state.lat}/>
         }
 
-        return <div>Loading!</div>
+        return <LoadingScreen />
     }
 }
 
