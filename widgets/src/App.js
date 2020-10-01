@@ -1,7 +1,8 @@
 import React from 'react';
-import Accordion from "./components/Accordion";
+//import Accordion from "./components/Accordion";
+import Search from "./components/Search";
 
-const items = [
+/*const items = [
     {
         title: "maksudik",
         origin: "russian republic, dagestan, kaspiysk"
@@ -18,12 +19,13 @@ const items = [
         title: "sergei",
         origin: "lithuania, ignalinos rajonas, visaginas"
     }
-];
+];*/
 
 export default () => {
     return (
         <div>
-            <Accordion items={items} />
+            {/*<Accordion items={items} />*/}
+            <Search/>
         </div>
     )
 };
