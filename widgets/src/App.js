@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-// import Accordion from "./components/Accordion";
 import Search from "./components/Search";
 import Translate from "./components/Translate";
 import Accordion from "./components/Accordion";
 import Dropdown from "./components/Dropdown";
 import Route from "./components/Route";
+import Header from "./components/Header";
 
 const options = [
     {
@@ -42,25 +42,24 @@ export default () => {
     const [selected, setSelected] = useState(options[0]);
     return (
         <div>
-            <div>
-                <Route path="/">
-                    <Accordion items={items}/>
-                </Route>
-                <Route path="/list">
-                    <Search/>
-                </Route>
-                <Route path="/translate">
-                    <Translate/>
-                </Route>
-                <Route path="/dropdown">
-                    <Dropdown
-                        label="Pick a flower"
-                        options={options}
-                        onSelectedChange={setSelected}
-                        selected={selected}
-                    />
-                </Route>
-            </div>
+            <Header/>
+            <Route path="/">
+                <Accordion items={items}/>
+            </Route>
+            <Route path="/search">
+                <Search/>
+            </Route>
+            <Route path="/translate">
+                <Translate/>
+            </Route>
+            <Route path="/dropdown">
+                <Dropdown
+                    label="Pick a flower"
+                    options={options}
+                    onSelectedChange={setSelected}
+                    selected={selected}
+                />
+            </Route>
         </div>
     )
 };
