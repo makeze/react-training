@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 //import Accordion from "./components/Accordion";
 // import Search from "./components/Search";
-import Dropdown from "./components/Dropdown";
-const options = [
+// import Dropdown from "./components/Dropdown";
+/*const options = [
     {
         title: "Roses are pretty",
         value: "roses"
@@ -14,7 +14,7 @@ const options = [
     {
         title: "Dandelion is fun",
         value: "dandelion"
-    }];
+    }];*/
 /*const items = [
     {
         title: "maksudik",
@@ -35,16 +35,16 @@ const options = [
 ];*/
 
 export default () => {
-    const [selected, setSelected] = useState(options[0]);
+    // const [selected, setSelected] = useState(options[0]);
     return (
         <div>
             {/*<Accordion items={items} />*/}
             {/*<Search/>*/}
-            <Dropdown
+{/*            <Dropdown
                 options={options}
                 onSelectedChange={setSelected}
                 selected={selected}
-            />
+            />*/}
         </div>
     )
 };
