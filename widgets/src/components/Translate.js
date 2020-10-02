@@ -4,15 +4,15 @@ import Convert from "./Convert";
 
 const options = [
     {
-        label: "Lithuanian",
+        title: "Lithuanian",
         value: "lt"
     },
     {
-        label: "Russian",
+        title: "Russian",
         value: "ru"
     },
     {
-        label: "English",
+        title: "English",
         value: "en"
     }];
 
