@@ -5,13 +5,14 @@ import StreamDelete from "./streams/StreamDelete";
 import StreamEdit from "./streams/StreamEdit";
 import StreamCreate from "./streams/StreamCreate";
 import StreamList from "./streams/StreamList";
+import Header from "./Header";
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Header</h1>
+            <div className="ui container">
                 <BrowserRouter>
+                    <Header/>
                     <div>
                         <Route path="/" exact component={StreamList} />
                         <Route path="/streams/create" exact component={StreamCreate} />
