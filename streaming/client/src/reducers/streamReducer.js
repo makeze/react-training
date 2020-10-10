@@ -1,8 +1,5 @@
 import _ from 'lodash';
-import streams from "../apis/streams";
 import {
-    SIGN_IN,
-    SIGN_OUT,
     CREATE_STREAM,
     FETCH_STREAMS,
     FETCH_STREAM,
