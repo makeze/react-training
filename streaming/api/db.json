@@ -1,3 +1,22 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "title": "Maksudik",
+      "description": "Programming Newest",
+      "userId": "114239620723948002738",
+      "id": 1
+    },
+    {
+      "title": "Liam",
+      "description": "Mali",
+      "userId": "114239620723948002739",
+      "id": 3
+    },
+    {
+      "title": "Sam",
+      "description": "Warrior!",
+      "userId": "114239620723948002738",
+      "id": 4
+    }
+  ]
 }
