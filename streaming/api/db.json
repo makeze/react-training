@@ -1,6 +1,7 @@
 {
   "streams": [
     {
+<<<<<<< Updated upstream
       "title": "Maksudik",
       "description": "Programming Newest",
       "userId": "114239620723948002738",
@@ -17,6 +18,11 @@
       "description": "Warrior!",
       "userId": "114239620723948002738",
       "id": 4
+=======
+      "title": "maksudik",
+      "description": "maksudik stream",
+      "id": 1
+>>>>>>> Stashed changes
     }
   ]
 }
